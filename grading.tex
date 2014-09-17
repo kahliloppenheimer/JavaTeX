@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{fancyhdr, framed, listings, hyperref, lastpage, courier, tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[margin=1in]{geometry}
+
+%Parameters
+
+\newcommand{\assignmentNum}{1}
+\newcommand{\assignmentType}{Problem Set}
+\newcommand{\courseName}{COSI21a - Data Structures and Algorithms}
+\newcommand{\assignmentTitle}{\assignmentType \ \assignmentNum \ Grade Report}
+\newcommand{\lastpage}{\pageref{LastPage}}
+\newcommand{\firstTAName}{Ima Ta}
+\newcommand{\firstTAEmail}{imata@brandeis.edu}
+\newcommand{\secondTAName}{imalso Ta}
+\newcommand{\secondTAEmail}{imalsota@brandeis.edu}
+\newcommand{\studentName}{John Doe}
+
+\pagestyle{fancy}
+\lhead{\studentName}
+\rhead{\today}
+\chead{\courseName}
+\rfoot{\url{\firstTAEmail}\\\url{\secondTAEmail}}
+\cfoot{Page \thepage/\lastpage\\ \assignmentTitle}
+\lfoot{\firstTAName \\\secondTAName}
+
+\begin{document}
+
+	\input{template.tex}
+
+\end{document}
+
+
