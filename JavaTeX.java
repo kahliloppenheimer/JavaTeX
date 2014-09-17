@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class GradingSummary {
+public class JavaTeX {
 	// Location of input CSV file with grades
 	private static String INPUT_FILE = "";
 	// Desired location of output file with LaTeX
